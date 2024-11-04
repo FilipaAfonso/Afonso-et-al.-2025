@@ -25,6 +25,6 @@ Kernel Quadratic Function is used to assess density of ES across the sum of all 
 4 - Run script;
 5 - Final step creates a plot with the analysis outputs.
 
-shinyapp:
+#To replicate the correlation analysis using your data you can use the following link to acess the shinyapp: https://fcoroado.shinyapps.io/correlation_analysis_raster/
 
 If you have any further questions, please contact me at: fmafonso@fc.ul.pt
