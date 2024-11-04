@@ -7,7 +7,7 @@ library(dplyr)
 library(corrplot)
 
 #Load raster files
-raster_stack <- stack(./data/*.tif, full.names = TRUE, recursive = FALSE)
+raster_stack <- stack(./Data/*.tif, full.names = TRUE, recursive = FALSE)
 
 #Convert raster files to data frame
 raster_df <- as.data.frame(raster_stack, xy = TRUE, na.rm = TRUE) 
