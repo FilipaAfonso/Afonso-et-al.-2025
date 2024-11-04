@@ -1,8 +1,5 @@
 #Density analysis using Kernel quadratic function
 
-#install packages
-install.packages("raster")
-
 #library upload
 library(raster)
 
@@ -12,7 +9,7 @@ kernel_quadratic <- function(x) {
 }
 
 # Create a raster stack from your list of rasters
-raster_files <- list.files("data/ES1.tif", "data/ES2.tif", "data/ES3.tif", "data/ES4.tif")
+raster_files <- list.files(./data/*.tif, full.names = TRUE, recursive = FALSE)
 raster_stack <- stack(raster_files)
 
 # Sum the raster stack
