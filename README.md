@@ -19,9 +19,12 @@ Before applying the correlation analysis, parametric tests should be performed t
 Kernel Quadratic Function is used to assess density of ES across the sum of all rasters. Normalization (0-1) is employed to facilitate data interpretation.
 
 #ScriptUse
-1 - Open script
-2 - Insert data in folder 'Data/' and erase example files 
-3 - Run script
-4 - Final step creates a plot with the analysis outputs
+1 - Open script;
+2 - For Correlation analysis install packages 'Raster', 'ggplot2', 'dplyr', 'corrplot'; for Density analysis install package 'Raster';
+3 - Insert data files in folder 'Data/' and erase example files;
+4 - Run script;
+5 - Final step creates a plot with the analysis outputs.
+
+shinyapp:
 
 If you have any further questions, please contact me at: fmafonso@fc.ul.pt
