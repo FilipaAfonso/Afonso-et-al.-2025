@@ -9,7 +9,7 @@ kernel_quadratic <- function(x) {
 }
 
 # Create a raster stack from your list of rasters
-raster_files <- list.files(./data/*.tif, full.names = TRUE, recursive = FALSE)
+raster_files <- list.files(./Data/*.tif, full.names = TRUE, recursive = FALSE)
 raster_stack <- stack(raster_files)
 
 # Sum the raster stack
