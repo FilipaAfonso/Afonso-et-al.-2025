@@ -1,11 +1,5 @@
 #Correlation Analysis R script
 
-#Install packages
-install.packages ("raster")
-install.packages ("ggplot2")
-install.packages ("dplyr")
-install.packages ("corrplot")
-
 #Load libraries
 library(raster)
 library(ggplot2)
@@ -13,7 +7,7 @@ library(dplyr)
 library(corrplot)
 
 #Load raster files
-raster_stack <- stack("data/ES1.tif", "data/ES2.tif", "data/ES3.tif", "data/ES4.tif")
+raster_stack <- stack(./data/*.tif, full.names = TRUE, recursive = FALSE)
 
 #Convert raster files to data frame
 raster_df <- as.data.frame(raster_stack, xy = TRUE, na.rm = TRUE) 
