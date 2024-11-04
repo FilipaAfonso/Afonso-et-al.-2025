@@ -5,8 +5,6 @@ library(raster)
 library(ggplot2)
 library(dplyr)
 library(corrplot)
-library(Hmisc)
-
 
 # DO normality test in a vector and depending on length do KS or SW.
 # If TRUE the ovalue indicated NORMAL distribution
