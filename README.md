@@ -1,4 +1,4 @@
-# Afonso-et-al.-2025
+# Script for Correlation and Density analysis applied to Raster files
 #Statistical Analysis of "Assessing ecosystem services of estuarine ecosystems: A participatory mapping approach in the Sado Estuary, Portugal"
 The Statistical Analysis includes correlation and density analysis performed on raster files. Each raster corresponds to the map of supply or demand for each ecosystem service (ES). 
 
