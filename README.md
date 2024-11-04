@@ -4,8 +4,9 @@ The Statistical Analysis includes correlation and density analysis performed on 
 
 #Repository Structure
 **data/** includes 4 data files as examples that can be used with these scripts. 
-**scripts/** contains R scripts used to perform correlation analysis ('Correlation_matrix.R') and density analysis ('Density_analysis.R')
 **README.md** provides information about the repository and details on how to use the data and scripts. 
+**Correlation_matrix.R** script to perform correlation analysis
+**Density_analysis.R** script to perform density analysis
 
 ##Data files
 Raster files should be separated by ES supply and demand maps; each raster should only include a pattern of colours (lighter colours indicates no ES supply/demand and darker colours indicate higher provision/demand of ES). Raster files used for analysis should not include background colour or maps. Folder "data/" folder contains examples of ES maps.
@@ -16,5 +17,11 @@ Before applying the correlation analysis, parametric tests should be performed t
 
 #Density analysis
 Kernel Quadratic Function is used to assess density of ES across the sum of all rasters. Normalization (0-1) is employed to facilitate data interpretation.
+
+#ScriptUse
+1 - Open script
+2 - Insert data in folder 'Data/' and erase example files 
+3 - Run script
+4 - Final step creates a plot with the analysis outputs
 
 If you have any further questions, please contact me at: fmafonso@fc.ul.pt
